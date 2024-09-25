@@ -425,5 +425,10 @@ FodyWeavers.xsd
 
 .idea
 
+!x64/Release/
 !x64/Release/*.dll
+!x64/Release/*.ini
+!x64/Debug/
 !x64/Debug/*.dll
+!x64/Release/*.ini
+
