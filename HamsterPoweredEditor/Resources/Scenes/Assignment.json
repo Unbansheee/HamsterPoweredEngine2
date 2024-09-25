@@ -1,0 +1,471 @@
+{
+    "Actors": [
+        {
+            "ActorType": "Spinner",
+            "ID": "067d1adb-40ee-403f-9cbd-13cd8fdd3dc4",
+            "RotationSpeed": [
+                0.0,
+                100.0,
+                0.0
+            ],
+            "children": [
+                "7b02af03-4ca8-498a-b3d4-3e9b57080dc3"
+            ],
+            "name": "HorizontalSpinner",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                918.4667358398438,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "Spinner",
+            "ID": "17d58102-6ffb-4562-81a6-7d97be56f8a4",
+            "RotationSpeed": [
+                100.0,
+                0.0,
+                0.0
+            ],
+            "children": [
+                "d7b7604d-42ee-4504-bc58-ea84d4c4dc88"
+            ],
+            "name": "VerticalSpinner",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                918.4667358398438,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "Mesh",
+            "ID": "7b02af03-4ca8-498a-b3d4-3e9b57080dc3",
+            "MeshPath": "",
+            "Textures": [
+                "Resources/Textures/Crate.png",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": null,
+            "name": "Cube1",
+            "position": [
+                2.5,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "Mesh",
+            "ID": "d7b7604d-42ee-4504-bc58-ea84d4c4dc88",
+            "MeshPath": "",
+            "Textures": [
+                "Resources/Textures/Steve.jpg",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": null,
+            "name": "Cube2",
+            "position": [
+                0.0,
+                1.5,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "TextLabel",
+            "BaseColor": [
+                0.0,
+                1.0,
+                1.0
+            ],
+            "FontPath": "Resources/Fonts/Roboto-Regular.ttf",
+            "HoverColor": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "ID": "7ed3c209-fe96-4826-b2b0-e6a8886095d0",
+            "PressedColor": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "ScaleBounce": false,
+            "ScreenSpace": true,
+            "ScrollSpeed": [
+                0.0,
+                0.0
+            ],
+            "ScrollText": false,
+            "Text": "Drag Me!",
+            "children": null,
+            "name": "DragText",
+            "position": [
+                188.045166015625,
+                77.0859375,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.4304671287536621,
+                0.4304671287536621,
+                0.4304671287536621
+            ]
+        },
+        {
+            "ActorType": "TextLabel",
+            "BaseColor": [
+                1.0,
+                0.4455445408821106,
+                0.0
+            ],
+            "FontPath": "Resources/Fonts/Roboto-Regular.ttf",
+            "HoverColor": [
+                0.9603961706161499,
+                1.0,
+                0.0
+            ],
+            "ID": "97303dfc-72f5-4665-9aee-e5bb9300cab4",
+            "PressedColor": [
+                0.5198019742965698,
+                0.2161552757024765,
+                0.0
+            ],
+            "ScaleBounce": true,
+            "ScreenSpace": true,
+            "ScrollSpeed": [
+                0.0,
+                0.0
+            ],
+            "ScrollText": false,
+            "Text": "Press the up and down arrows while dragging!",
+            "children": null,
+            "name": "ArrowText",
+            "position": [
+                17.7415771484375,
+                21.477642059326172,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.39130699634552,
+                0.39130699634552,
+                0.39130699634552
+            ]
+        },
+        {
+            "ActorType": "PointLight",
+            "Color": [
+                1.0,
+                0.6814037561416626,
+                0.3564356565475464
+            ],
+            "ID": "be6100b3-e3db-451d-82bb-ed44a8de2cf7",
+            "Intensity": 1.5,
+            "Radius": 14.899999618530273,
+            "children": null,
+            "name": "PointLight",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "Mesh",
+            "ID": "89daa5f7-26ee-4732-a105-edaca0c4dc70",
+            "MeshPath": "Resources/Meshes/MonkeySmooth.obj",
+            "Textures": [
+                "Resources/Textures/Wood.jpg",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": null,
+            "name": "Suzanne",
+            "position": [
+                0.0,
+                0.0,
+                -0.7630000114440918
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        {
+            "ActorType": "TextLabel",
+            "BaseColor": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "FontPath": "Resources/Fonts/Roboto-Regular.ttf",
+            "HoverColor": [
+                0.9306926727294922,
+                0.0,
+                1.0
+            ],
+            "ID": "9866c91b-b9b8-4f0b-af5a-437fde8d5c98",
+            "PressedColor": [
+                0.48514848947525024,
+                0.0,
+                0.38907963037490845
+            ],
+            "ScaleBounce": false,
+            "ScreenSpace": true,
+            "ScrollSpeed": [
+                242.0,
+                0.0
+            ],
+            "ScrollText": true,
+            "Text": "Look at me go!",
+            "children": null,
+            "name": "Scroller",
+            "position": [
+                670.6331787109375,
+                184.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.25999999046325684,
+                0.25999996066093445,
+                0.25999996066093445
+            ]
+        },
+        {
+            "ActorType": "TextLabel",
+            "BaseColor": [
+                0.425742506980896,
+                1.0,
+                0.0
+            ],
+            "FontPath": "Resources/Fonts/Roboto-Regular.ttf",
+            "HoverColor": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "ID": "f28dc210-6b2d-407c-9663-817565d6802a",
+            "PressedColor": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "ScaleBounce": false,
+            "ScreenSpace": true,
+            "ScrollSpeed": [
+                283.0,
+                239.0
+            ],
+            "ScrollText": true,
+            "Text": "Strike!",
+            "children": null,
+            "name": "WowText",
+            "position": [
+                560.7306518554688,
+                590.7631225585938,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.2809999883174896,
+                0.28099989891052246,
+                0.28099989891052246
+            ]
+        }
+    ],
+    "AmbientIntensity": 2.200000047683716,
+    "EditorCamera": {
+        "ActorType": "CameraController",
+        "CameraType": 1,
+        "ID": "9857134b-306d-4003-9160-dfd8d06f00bc",
+        "OrthoZoom": 2.745934247970581,
+        "PerspMoveSpeed": 1.0,
+        "Pitch": 8.5,
+        "Yaw": -251.5,
+        "Zoom": 76.69999694824219,
+        "children": null,
+        "name": "Editor Camera",
+        "position": [
+            0.12476470321416855,
+            0.8204576373100281,
+            0.23856091499328613
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "RenderMode": 2,
+    "SceneColour": [
+        0.05470053106546402,
+        0.07691733539104462,
+        0.11881190538406372,
+        1.0
+    ]
+}

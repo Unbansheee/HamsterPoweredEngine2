@@ -1,0 +1,261 @@
+{
+    "Actors": [
+        {
+            "ActorType": "Quad",
+            "ID": "f4c8998d-662b-4bb0-b847-115b46111e98",
+            "TextureFiltering": 1,
+            "TexturePath": "Resources/Textures/Brick.jpg",
+            "children": null,
+            "name": "Floor",
+            "position": [
+                0.0,
+                -5.0,
+                0.0
+            ],
+            "rotation": [
+                -90.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        },
+        {
+            "ActorType": "Quad",
+            "ID": "e743a922-40c0-4022-ab7a-613edf172cfa",
+            "TextureFiltering": 0,
+            "TexturePath": "",
+            "children": null,
+            "name": "Teetho",
+            "position": [
+                1.0,
+                0.7434872984886169,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "Quad",
+            "ID": "bd68d071-c831-4b2e-af66-931afd2526bd",
+            "TextureFiltering": 1,
+            "TexturePath": "Resources/Textures/Gear.png",
+            "children": null,
+            "name": "Gear",
+            "position": [
+                0.0,
+                -1.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                -365.0215148925781
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "AnimatedQuad",
+            "Columns": 10,
+            "FPS": 30.0,
+            "FrameCount": 60,
+            "ID": "eea5b947-f9d3-4245-9738-22a56ab2f8be",
+            "Path": "Resources/Textures/Fire.png",
+            "Rows": 6,
+            "TextureFiltering": 1,
+            "TexturePath": "Resources/Textures/Fire.png",
+            "children": null,
+            "name": "Animated Fire",
+            "position": [
+                -1.0,
+                -0.10000000149011612,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "AnimatedQuad",
+            "Columns": 10,
+            "FPS": 30.0,
+            "FrameCount": 60,
+            "ID": "c14f2a75-d796-4b51-9b39-7ccbaa503742",
+            "Path": "Resources/Textures/Fire2.png",
+            "Rows": 6,
+            "TextureFiltering": 1,
+            "TexturePath": "Resources/Textures/Fire2.png",
+            "children": null,
+            "name": "Animated Fire 2",
+            "position": [
+                1.0,
+                -0.10000000149011612,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "Hexagon",
+            "ID": "a54217b5-47d8-4188-b027-ae72deefdf0c",
+            "InstancePositions": [
+                [
+                    -2.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "Texture": "Resources/Textures/Brick.jpg",
+            "Texture2": "Resources/Textures/Wood.jpg",
+            "children": null,
+            "name": "Hexagon",
+            "position": [
+                1.0,
+                -1.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "DirLight",
+            "Color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "ID": "a53666b1-2d36-479d-83b9-d74ddb950a1b",
+            "Intensity": 1.0,
+            "children": null,
+            "name": "Light",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                30.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "TextLabel",
+            "BaseColor": [
+                0.0,
+                1.0,
+                1.0
+            ],
+            "FontPath": "Resources/Fonts/Roboto-Regular.ttf",
+            "HoverColor": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "ID": "6fa605ea-791b-4992-895d-d32ef0156c3b",
+            "PressedColor": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "ScaleBounce": true,
+            "ScreenSpace": true,
+            "Text": "Text Render",
+            "children": null,
+            "name": "Text Render",
+            "position": [
+                247.02618408203125,
+                69.2669906616211,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.7977463006973267,
+                0.7977463006973267,
+                0.7977463006973267
+            ]
+        }
+    ],
+    "AmbientIntensity": 0.5,
+    "EditorCamera": {
+        "ActorType": "CameraController",
+        "CameraType": 0,
+        "ID": "a70c4de9-33e1-4e96-b507-e27518570bbf",
+        "OrthoZoom": 2.357090950012207,
+        "PerspMoveSpeed": 15.014398574829102,
+        "Pitch": 18.5,
+        "Yaw": 94.0,
+        "Zoom": 75.0,
+        "children": null,
+        "name": "Editor Camera",
+        "position": [
+            0.14621123671531677,
+            -0.34930187463760376,
+            10.414054870605469
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "RenderMode": 0,
+    "SceneColour": [
+        0.11053711920976639,
+        0.10131361335515976,
+        0.12871289253234863,
+        1.0
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "Actors": [
+        {
+            "ActorType": "ClothActor",
+            "CollisionEnabled": true,
+            "CollisionMeshOrigin": [
+                25.200000762939453,
+                15.5,
+                0.0
+            ],
+            "CollisionMeshScale": 7.400000095367432,
+            "CollisionMeshSpeed": 0.6000000238418579,
+            "CollisionMeshTravelDistance": [
+                0.0,
+                0.0,
+                27.5
+            ],
+            "Damping": 0.10000000149011612,
+            "Gravity": [
+                0.0,
+                -9.8100004196167,
+                0.0
+            ],
+            "Height": 50,
+            "ID": "54cd400e-eddf-4fec-a693-2a77f3829097",
+            "Iterations": 8,
+            "PhysicsTime": 1000.0,
+            "RestLength": 1.0,
+            "SelfCollision": false,
+            "Stiffness": 50.0,
+            "Turbulence": 50.0,
+            "Width": 50,
+            "Wind": [
+                0.0,
+                0.0,
+                10.0
+            ],
+            "WindFrequency": 50.0,
+            "children": null,
+            "name": "Cloth",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "DirLight",
+            "Color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "ID": "e18f14ad-bad9-4c5a-9beb-7c9fe188e590",
+            "Intensity": 1.2999999523162842,
+            "children": null,
+            "name": "Light",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -62.0,
+                -151.0,
+                -32.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "SkyboxActor",
+            "Brightness": 1.2799999713897705,
+            "ID": "2332f2da-afcc-42ee-9739-f05c65b2b8df",
+            "Path": "Resources/Textures/Skybox/Hilltop.png",
+            "children": null,
+            "name": "Skybox",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -36.0,
+                0.0
+            ],
+            "scale": [
+                100000.0,
+                100000.0,
+                100000.0
+            ]
+        },
+        {
+            "ActorType": "DynamicMeshActor",
+            "ID": "aeff02fb-a2d6-47ed-a762-d624f11faed4",
+            "TexturePath": "Resources/Textures/PatchyGrass.png",
+            "children": null,
+            "name": "Floor",
+            "position": [
+                22.899999618530273,
+                8.899999618530273,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                50.0,
+                50.00001907348633,
+                50.00001907348633
+            ]
+        }
+    ],
+    "AmbientIntensity": 1.3300000429153442,
+    "EditorCamera": {
+        "ActorType": "CameraController",
+        "CameraType": 1,
+        "ID": "44066282-a9e2-4e80-a2f2-284b8ae45ab4",
+        "OrthoZoom": 6.215575218200684,
+        "PerspMoveSpeed": 20.0,
+        "Pitch": -16.5,
+        "Yaw": -633.5,
+        "Zoom": 75.0,
+        "children": null,
+        "name": "Editor Camera",
+        "position": [
+            22.4909610748291,
+            16.393871307373047,
+            68.25131225585938
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "RenderMode": 2,
+    "SceneColour": [
+        0.21718604862689972,
+        0.22772276401519775,
+        0.16120967268943787,
+        1.0
+    ]
+}

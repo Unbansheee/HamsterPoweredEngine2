@@ -1,0 +1,536 @@
+{
+    "Actors": [
+        {
+            "ActorType": "Quad",
+            "ID": "d91214eb-50ef-4718-a2c6-163d06050b23",
+            "TextureFiltering": 1,
+            "TexturePath": "Resources/Textures/grass.png",
+            "children": null,
+            "name": "Floor",
+            "position": [
+                0.0,
+                -5.0,
+                0.0
+            ],
+            "rotation": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        },
+        {
+            "ActorType": "AnimatedQuad",
+            "Columns": 10,
+            "FPS": 60.0,
+            "FrameCount": 60,
+            "ID": "c7d8c9e9-ba02-4fb8-baa0-a96591b29c6e",
+            "Path": "Resources/Textures/Fire.png",
+            "Rows": 6,
+            "TextureFiltering": 0,
+            "TexturePath": "Resources/Textures/Fire.png",
+            "children": [
+                "a12388f5-9e28-4dad-be4e-495f0d1acc69"
+            ],
+            "name": "Animated Fire",
+            "position": [
+                -0.20000000298023224,
+                1.100000023841858,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                235.5399932861328,
+                0.0
+            ],
+            "scale": [
+                2.436000108718872,
+                2.4360005855560303,
+                2.4360005855560303
+            ]
+        },
+        {
+            "ActorType": "MeshActor",
+            "ID": "d74b7551-b8b7-44bd-b946-412e5f7c7679",
+            "MeshPath": "",
+            "Textures": [
+                "Resources/Textures/Crate.png",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": null,
+            "name": "Crate",
+            "position": [
+                -1.600000023841858,
+                -4.5,
+                6.300000190734863
+            ],
+            "rotation": [
+                0.0,
+                38.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "MeshActor",
+            "ID": "3e0d9f52-a39e-4375-a2a2-c866f3c5ab35",
+            "MeshPath": "Resources/Meshes/sm_tent.fbx",
+            "Textures": [
+                "Resources/Meshes/tent_diff128.png",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": null,
+            "name": "Tent",
+            "position": [
+                2.5,
+                -5.0,
+                4.099999904632568
+            ],
+            "rotation": [
+                0.0,
+                -1.0,
+                0.0
+            ],
+            "scale": [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+            ]
+        },
+        {
+            "ActorType": "MeshActor",
+            "ID": "b96460c4-424d-49dc-9bc4-275e41a35566",
+            "MeshPath": "Resources/Meshes/sm_Campfire.fbx",
+            "Textures": [
+                "Resources/Meshes/campfire_diff.png",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": [
+                "c7d8c9e9-ba02-4fb8-baa0-a96591b29c6e"
+            ],
+            "name": "Campfire",
+            "position": [
+                -3.5,
+                -5.0,
+                3.9000000953674316
+            ],
+            "rotation": [
+                0.0,
+                2.0,
+                0.0
+            ],
+            "scale": [
+                0.4000000059604645,
+                0.40000006556510925,
+                0.40000006556510925
+            ]
+        },
+        {
+            "ActorType": "MeshActor",
+            "ID": "12b4307a-b02d-40fe-ba79-44193de409d8",
+            "MeshPath": "Resources/Meshes/MonkeySmooth.obj",
+            "Textures": [
+                "Resources/Textures/wood.jpg",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": null,
+            "name": "Suzanne",
+            "position": [
+                1.2960000038146973,
+                -4.584000110626221,
+                4.199999809265137
+            ],
+            "rotation": [
+                85.0,
+                -116.0,
+                74.0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        {
+            "ActorType": "MeshActor",
+            "ID": "e83d146d-e736-4ea7-b20d-7d95c412131c",
+            "MeshPath": "Resources/Meshes/Gun.obj",
+            "Textures": [
+                "Resources/Meshes/Flintlock_2K_albedo.png",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": null,
+            "name": "Flintlock",
+            "position": [
+                -1.6050000190734863,
+                -3.9639999866485596,
+                6.14300012588501
+            ],
+            "rotation": [
+                -2.109999895095825,
+                -20.68000030517578,
+                -86.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "MeshActor",
+            "ID": "28bfbbd7-021b-4f19-965b-bb8683e4e363",
+            "MeshPath": "Resources/Meshes/MonkeySmooth.obj",
+            "Textures": [
+                "Resources/Textures/Swirly.jpg",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "children": null,
+            "name": "SwirlyHead",
+            "position": [
+                0.0,
+                -4.5,
+                0.4000000059604645
+            ],
+            "rotation": [
+                56.0,
+                -134.0,
+                45.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "DirLight",
+            "Color": [
+                0.0,
+                0.8217825889587402,
+                1.0
+            ],
+            "ID": "f2657f3a-52cc-4c0f-b144-45eedbccab1f",
+            "Intensity": 0.18299999833106995,
+            "children": null,
+            "name": "Sun",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -45.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "PointLight",
+            "Color": [
+                1.0,
+                0.3979511857032776,
+                0.1435643434524536
+            ],
+            "ID": "a12388f5-9e28-4dad-be4e-495f0d1acc69",
+            "Intensity": 2.0999999046325684,
+            "Radius": 5.400000095367432,
+            "children": null,
+            "name": "FireLight",
+            "position": [
+                0.0,
+                0.5,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "PointLight",
+            "Color": [
+                0.47617843747138977,
+                0.0,
+                0.7178217768669128
+            ],
+            "ID": "498cb194-6c2a-4905-8e43-79f855c9dfc4",
+            "Intensity": 2.5,
+            "Radius": 2.700000047683716,
+            "children": null,
+            "name": "Light2",
+            "position": [
+                1.2000000476837158,
+                -5.300000190734863,
+                3.200000047683716
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "ActorType": "SkyboxActor",
+            "Brightness": 0.3400000035762787,
+            "ID": "9910cd83-312e-4562-928b-8b0b036de42d",
+            "Path": "Resources/Textures/Skybox/ClarensNight.png",
+            "children": null,
+            "name": "Skybox",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -208.0,
+                0.0
+            ],
+            "scale": [
+                100000.0,
+                100000.0,
+                100000.0
+            ]
+        }
+    ],
+    "AmbientIntensity": 0.10000000149011612,
+    "EditorCamera": {
+        "ActorType": "CameraController",
+        "CameraType": 1,
+        "ID": "b8dc23f2-d0b0-4e8b-8702-013d345b6c0b",
+        "OrthoZoom": 2.5,
+        "PerspMoveSpeed": 2.1534149646759033,
+        "Pitch": 4.799999237060547,
+        "Yaw": 566.5,
+        "Zoom": 41.70000076293945,
+        "children": null,
+        "name": "Editor Camera",
+        "position": [
+            -8.671887397766113,
+            -2.3158538341522217,
+            -0.6945781707763672
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "scale": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "RenderMode": 2,
+    "SceneColour": [
+        0.007058129645884037,
+        0.025103367865085602,
+        0.03960394859313965,
+        1.0
+    ]
+}
